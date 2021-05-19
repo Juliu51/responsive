@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.wrapper .header {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
+
+.wrapper .header .header__wrap {
+  display: inline-block;
+  width: 100%;
+}
+
+.wrapper .main {
+  display: inline-block;
+  width: 100%;
+}
+
+.wrapper .main .main__album {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .main .main__album .left__arrow {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: 0;
+  width: 10%;
+  float: left;
+  height: 100px;
+}
+
+.wrapper .main .main__album .left__arrow img {
+  width: 50px;
+  height: 50px;
+  margin-left: calc(50% - 25px);
+  margin-top: 25px;
+}
+
+.wrapper .main .main__album .album__content {
+  width: 100%;
+  float: left;
+  height: 500px;
+}
+
+.wrapper .main .main__album .album__content img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+}
+
+.wrapper .main .main__album .right__arrow {
+  position: absolute;
+  top: calc(50% - 50px);
+  right: 0;
+  height: 100%;
+  width: 10%;
+  float: left;
+  height: 100px;
+}
+
+.wrapper .main .main__album .right__arrow img {
+  width: 50px;
+  height: 50px;
+  margin-left: calc(50% - 25px);
+  margin-top: 25px;
+}
+
+.wrapper .main .main__album .album__navigation {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  border: 2px solid black;
+  background-color: rgba(165, 42, 42, 0.726);
+  border-radius: 40px;
+  margin: 4px 2px;
+}
+
+.wrapper .footer {
+  display: inline-block;
+  width: 100%;
+}
+
+.wrapper .footer .footer__wrap {
+  display: inline-block;
+  width: 100%;
+}
+
+.container {
+  display: inline-block;
+  width: 1200px;
+  margin-left: calc(50% - 600px);
+}
+
+@media only screen and (max-width: 920px) {
+  .container {
+    width: 98%;
+    margin-left: 1%;
+  }
+}
